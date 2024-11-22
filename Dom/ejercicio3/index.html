@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar en Tabla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Diccionario de Palabras</h2>
+        
+        
+        <div class="search-form">
+            <input type="text" id="searchTerm" placeholder="Buscar palabra...">
+            <button id="searchButton">Buscar</button>
+        </div>
+
+        <p id="resultCount"></p> 
+
+        
+        <table id="dictionaryTable">
+            <thead>
+                <tr>
+                    <th>Palabra</th>
+                    <th>Definición</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manzana</td>
+                    <td>Fruto comestible de un manzano.</td>
+                </tr>
+                <tr>
+                    <td>Plátano</td>
+                    <td>Fruto largo y curvado de la planta del plátano.</td>
+                </tr>
+                <tr>
+                    <td>Melón</td>
+                    <td>Fruto grande, redondo o alargado, con pulpa jugosa.</td>
+                </tr>
+                <tr>
+                    <td>Manzana</td>
+                    <td>Fruto comestible de un manzano, de color rojo o verde.</td>
+                </tr>
+                <tr>
+                    <td>Perro</td>
+                    <td>Animal doméstico, conocido por ser el mejor amigo del hombre.</td>
+                </tr>
+                <tr>
+                    <td>Manzana</td>
+                    <td>Fruto comestible de un manzano.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
